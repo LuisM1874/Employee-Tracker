@@ -3,7 +3,7 @@ const fs = require("fs");
 const inquirerQuestions = require("./lib/questions.js");
 const questions = inquirerQuestions.questions;
 const userInput = inquirerQuestions.userInput;
-const mysql = require("mysql");
+const mysql = require("mysql2");
 
 const PORT = process.env.PORT || 3001;
 
